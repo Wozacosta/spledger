@@ -1,0 +1,1 @@
+/Users/samy.rabah-montarou/Code/solana/scaffold2/spluck/anchor/target/sbpf-solana-solana/release/spl_creator.so: /Users/samy.rabah-montarou/Code/solana/scaffold2/spluck/anchor/programs/spl-creator/src/lib.rs
