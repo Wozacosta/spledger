@@ -58,7 +58,7 @@ describe('spl_creator', () => {
       .accounts({
         payer: payer.publicKey,
         mint: mint.publicKey,
-        userAta: ata,
+        user_ata: ata,
         creatorData: creatorDataPDA,
         systemProgram: anchor.web3.SystemProgram.programId,
         tokenProgram: TOKEN_PROGRAM_ID,
@@ -90,7 +90,7 @@ describe('spl_creator', () => {
       .list()
       .accounts({
         payer: payer.publicKey,
-        creatorData: creatorDataPDA,
+        creator_data: creatorDataPDA,
       })
       .rpc()
 
