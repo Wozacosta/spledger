@@ -1,4 +1,4 @@
-# spluck-counter
+# spledger-basic
 
 This is a Vite app containing:
 
@@ -14,7 +14,7 @@ This is a Vite app containing:
 #### Download the template
 
 ```shell
-pnpm create solana-dapp@latest -t gh:solana-developers/solana-templates/legacy/spluck-counter
+pnpm create solana-dapp@latest -t gh:solana-developers/solana-templates/legacy/spledger-basic
 ```
 
 #### Install Dependencies

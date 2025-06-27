@@ -5,17 +5,10 @@ import { ThemeSelect } from '@/components/theme-select'
 import { ClusterUiSelect } from './cluster/cluster-ui'
 import { WalletButton } from '@/components/solana/solana-provider'
 import { Link, useLocation } from 'react-router'
-import useWalletApi from './account/useWalletApi'
 
 export function AppHeader({ links = [] }: { links: { label: string; path: string }[] }) {
   const { pathname } = useLocation()
   const [showMenu, setShowMenu] = useState(false)
-  const walletApiSdk = useWalletApi()
-  console.log('TOTO')
-  console.log({ walletApiSdk })
-  walletApiSdk?.getWallets().then((wallets) => {
-    console.log('wallet = ', wallets)
-  })
 
   function isActive(path: string) {
     return path === '/' ? pathname === '/' : pathname.startsWith(path)
@@ -26,7 +19,7 @@ export function AppHeader({ links = [] }: { links: { label: string; path: string
       <div className="mx-auto flex justify-between items-center">
         <div className="flex items-baseline gap-4">
           <Link to="/" className="text-xl hover:text-neutral-500 dark:hover:text-white">
-            <span>Spluck</span>
+            <span>Spledger</span>
           </Link>
           <div className="hidden md:flex items-center">
             <ul className="flex gap-4 flex-nowrap items-center">
