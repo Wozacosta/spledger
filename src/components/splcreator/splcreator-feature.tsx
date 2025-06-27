@@ -3,27 +3,25 @@ import { WalletButton } from '@/components/solana/solana-provider'
 import { ExplorerLink } from '@/components/cluster/cluster-ui'
 import { AppHero } from '@/components/app-hero'
 import { ellipsify } from '@/lib/utils'
-import { useCounterProgram } from './counter-data-access'
-import { CounterCreate, CounterList } from './counter-ui'
+import { useSplcreatorProgram } from './splcreator-data-access'
+import { SplcreatorCreate, SplcreatorList } from './splcreator-ui'
 
-export default function CounterFeature() {
+export default function SplcreatorFeature() {
   const { publicKey } = useWallet()
-  const { programId } = useCounterProgram()
+  const { programId } = useSplcreatorProgram()
 
   return publicKey ? (
     <div>
       <AppHero
-        title="Counter"
-        subtitle={
-          'Create a new account by clicking the "Create" button. The state of a account is stored on-chain and can be manipulated by calling the program\'s methods (increment, decrement, set, and close).'
-        }
+        title="SPL Creator"
+        subtitle="Create a new SPL token mint with metadata stored on-chain. The token is minted to your wallet and tracked by the program."
       >
         <p className="mb-6">
           <ExplorerLink path={`account/${programId}`} label={ellipsify(programId.toString())} />
         </p>
-        <CounterCreate />
+        <SplcreatorCreate />
       </AppHero>
-      <CounterList />
+      <SplcreatorList />
     </div>
   ) : (
     <div className="max-w-4xl mx-auto">
