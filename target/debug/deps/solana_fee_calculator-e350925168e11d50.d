@@ -1,0 +1,7 @@
+/Users/quentin.perrot-minnot/spledger/anchor/target/debug/deps/solana_fee_calculator-e350925168e11d50.d: /Users/quentin.perrot-minnot/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/solana-fee-calculator-2.2.1/src/lib.rs
+
+/Users/quentin.perrot-minnot/spledger/anchor/target/debug/deps/libsolana_fee_calculator-e350925168e11d50.rlib: /Users/quentin.perrot-minnot/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/solana-fee-calculator-2.2.1/src/lib.rs
+
+/Users/quentin.perrot-minnot/spledger/anchor/target/debug/deps/libsolana_fee_calculator-e350925168e11d50.rmeta: /Users/quentin.perrot-minnot/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/solana-fee-calculator-2.2.1/src/lib.rs
+
+/Users/quentin.perrot-minnot/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/solana-fee-calculator-2.2.1/src/lib.rs:

@@ -1,0 +1,10 @@
+/Users/quentin.perrot-minnot/spledger/anchor/target/release/deps/libthiserror-b38cdd46a0e2f947.rmeta: /Users/quentin.perrot-minnot/.cargo/registry/src/index.crates.io-6f17d22bba15001f/thiserror-1.0.69/src/lib.rs /Users/quentin.perrot-minnot/.cargo/registry/src/index.crates.io-6f17d22bba15001f/thiserror-1.0.69/src/aserror.rs /Users/quentin.perrot-minnot/.cargo/registry/src/index.crates.io-6f17d22bba15001f/thiserror-1.0.69/src/display.rs /Users/quentin.perrot-minnot/.cargo/registry/src/index.crates.io-6f17d22bba15001f/thiserror-1.0.69/src/provide.rs
+
+/Users/quentin.perrot-minnot/spledger/anchor/target/release/deps/libthiserror-b38cdd46a0e2f947.rlib: /Users/quentin.perrot-minnot/.cargo/registry/src/index.crates.io-6f17d22bba15001f/thiserror-1.0.69/src/lib.rs /Users/quentin.perrot-minnot/.cargo/registry/src/index.crates.io-6f17d22bba15001f/thiserror-1.0.69/src/aserror.rs /Users/quentin.perrot-minnot/.cargo/registry/src/index.crates.io-6f17d22bba15001f/thiserror-1.0.69/src/display.rs /Users/quentin.perrot-minnot/.cargo/registry/src/index.crates.io-6f17d22bba15001f/thiserror-1.0.69/src/provide.rs
+
+/Users/quentin.perrot-minnot/spledger/anchor/target/release/deps/thiserror-b38cdd46a0e2f947.d: /Users/quentin.perrot-minnot/.cargo/registry/src/index.crates.io-6f17d22bba15001f/thiserror-1.0.69/src/lib.rs /Users/quentin.perrot-minnot/.cargo/registry/src/index.crates.io-6f17d22bba15001f/thiserror-1.0.69/src/aserror.rs /Users/quentin.perrot-minnot/.cargo/registry/src/index.crates.io-6f17d22bba15001f/thiserror-1.0.69/src/display.rs /Users/quentin.perrot-minnot/.cargo/registry/src/index.crates.io-6f17d22bba15001f/thiserror-1.0.69/src/provide.rs
+
+/Users/quentin.perrot-minnot/.cargo/registry/src/index.crates.io-6f17d22bba15001f/thiserror-1.0.69/src/lib.rs:
+/Users/quentin.perrot-minnot/.cargo/registry/src/index.crates.io-6f17d22bba15001f/thiserror-1.0.69/src/aserror.rs:
+/Users/quentin.perrot-minnot/.cargo/registry/src/index.crates.io-6f17d22bba15001f/thiserror-1.0.69/src/display.rs:
+/Users/quentin.perrot-minnot/.cargo/registry/src/index.crates.io-6f17d22bba15001f/thiserror-1.0.69/src/provide.rs:

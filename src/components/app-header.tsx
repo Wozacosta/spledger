@@ -13,9 +13,9 @@ export function AppHeader({ links = [] }: { links: { label: string; path: string
   const walletApiSdk = useWalletApi()
   console.log('TOTO')
   console.log({ walletApiSdk })
-  walletApiSdk?.getWallets().then((wallets) => {
-    console.log('wallet = ', wallets)
-  })
+  // walletApiSdk?.getWallets().then((wallets) => {
+  //   console.log('wallet = ', wallets)
+  // })
 
   function isActive(path: string) {
     return path === '/' ? pathname === '/' : pathname.startsWith(path)
